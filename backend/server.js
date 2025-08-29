@@ -13,8 +13,7 @@ const app = express();
 
 // Connect to DB
 connectDB(
-  process.env.MONGO_URI ||
-  "mongodb+srv://abys7315:Abys2875%40%23@sparkathon.ho8cuvo.mongodb.net/?retryWrites=true&w=majority&appName=sparkathon"
+  process.env.MONGO_URI
 );
 
 // Middleware
